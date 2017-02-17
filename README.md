@@ -1,6 +1,6 @@
 # Dual-Process Reinforcement Learning
 
-***
+
 
 ## Overview
 

@@ -1,11 +1,12 @@
 # Dual-Process Theory of Reinforcement Learning
 
+* * *
 
 ### Overview
 
 The following paper describes an AI system that adaptively switches how it thinks, reasons, and acts in order to maximize cumulative reward. 
 
-* * *
+
 
 ### Thought Processes
 
@@ -19,7 +20,7 @@ The default method of action selection calculates the expected utility of each n
  
  This method of action selection is efficient in both speed and use of resources, but it is only effective once the agent has collected an adequate amount of knowledge, which takes time. 
 
-* * *
+
 
 ### Controlled Process
 

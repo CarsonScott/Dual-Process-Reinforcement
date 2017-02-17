@@ -1,4 +1,4 @@
-# Dual-Process Reinforcement Learning
+# Dual-Process Theory of Reinforcement Learning
 
 
 

@@ -4,7 +4,7 @@
 
 ### Overview
 
-The following paper describes an AI system that adaptively switches how it thinks, reasons, and acts in order to maximize cumulative reward. 
+This paper describes an algorithm for an intelligent agent that adaptively changes its thought processes to maximize cumulative reward. It has two different "styles" of thought, which are both useful at achieving certain tasks. 
 
 * * *
 

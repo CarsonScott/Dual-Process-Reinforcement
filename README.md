@@ -1,4 +1,4 @@
-# Dual-Process Theory of Action Selection
+# Dual-Process Theory of Reinforcement Learning
 
 ## Automatic Selection
 

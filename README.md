@@ -1,3 +1,5 @@
+# Dual-Process Theory of Action Selection
+
 ## Automatic Selection
 
 The default method of action selection calculates the expected utility of each neighboring state in order to select actions that maximize the cumulative reward. The agent learns to apply this method through reinforcement, such that the agent is driven to make incremental changes over time, which ultimately improves the accuracy of beliefs, along with the agent’s ability to select actions effectively.

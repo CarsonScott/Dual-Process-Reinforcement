@@ -1,18 +1,18 @@
 # Dual-Process Reinforcement Learning
 
-* * *
+
 
 ### Overview
 
 The following paper describes an AI system that adaptively switches how it thinks, reasons, and acts in order to maximize cumulative reward. 
 
-
+* * *
 
 ### Thought Processes
 
 The system switches between two different processing types, called Automatic and Controlled processing, which are functional opposites (The weaknesses of one is likely a strength in the other, and vice-versa). If one process is struggling in a given situation, the other process takes over. The interactions between them effectively increase their net strengths and suppress their net weaknesses. 
 
-* * *
+ 
 
 ### Automatic Process
 

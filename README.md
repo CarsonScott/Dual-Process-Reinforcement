@@ -10,7 +10,7 @@ This paper describes an algorithm for an intelligent agent that adaptively chang
 
 ## Thought Processes
 
-The system switches between two types of thought processes, called Automatic and Controlled processes, which are basically opposite of one another, in terms of their functions (i.e. weakness of one process is likely to be a strength of the other). The interaction between them increases their net-strength while suppressing their net-weakness. 
+The system switches between two types of thought processes, called Automatic and Controlled processes, which are basically opposite of one another, in terms of their functions (i.e. the strenghts of one process make up for the weakenesses of the other). The interaction between them increases their net-strength while suppressing their net-weakness. 
 
 This is due to the fact that if a process is doing well it is less likely to be replaced, and if its doing poorly it is more likely to be replaced. This causes a scheduling-like mechanism where the processes are more likely to be active in sitations where they perform well, and less likely to be active in situations where the do not.
 

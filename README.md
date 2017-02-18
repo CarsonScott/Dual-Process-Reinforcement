@@ -18,17 +18,19 @@ This is due to the fact that if a process is doing well it is less likely to be 
 
 ## Automatic Process
 
-The default method of action selection calculates the expected utility of each neighboring state in order to select actions that maximize the cumulative reward. The agent learns to apply this method through reinforcement, such that the agent is driven to make incremental changes over time, which ultimately improves the accuracy of beliefs, along with the agent’s ability to select actions effectively.
- 
- This method of action selection is efficient in both speed and use of resources, but it is only effective once the agent has collected an adequate amount of knowledge, which takes time. 
+The automatic process the default method of "thinking". It calculates the expected utility of each neighboring state in order to select actions that maximize the cumulative reward. The agent learns to apply this process through reinforcement, where the agent make incremental changes each time a reward is received, which ultimately improves the accuracy of beliefs, along with the agent’s ability to successfully use the automatic thought process.
 
 ---
 
 ## Controlled Process
 
-If the default method fails, the agent switches to controlled action selection. This secondary method calculates the distance between each neighboring state and the goal state, compares it to the current distance, and selects the action that best minimizes the distance. 
+If the automatic process fails, the agent switches secondary method, which is the controlled process. It calculates the distance between each neighboring state and the goal state, compares it to the current distance, and selects the action that best minimizes the distance. 
 
-Not only is the controlled method effective in dealing with uncertainty, but it also provides an opportunity for the agent to enhance its performance using the automatic method, thereby decreasing the need for manual selection, which relatively slow and inefficient relative to the automatic method.
+The constrolled process allows the agent to accumulate knowledge for the automatic process. This allows prepration of knowledge before the real appliacation. In other words, the agent uses the controlled process to "study" for the automatic process.
+
+This period of preperation has the additional effect of improving efficiency of the agent. The controlled proccess has a large relative cost, Thus, decreasing the reliace on the secondary memthod is a form of optimization. In an ideal world, the automatic process is an air-tight, self-contained system that performs optimally in every situation all the time.
+
+In a real, complex environment, the agent mostly uses the automatic process but occasionally swithces the the controlled process to deal with uncertainty. Too much uncertainty can hinder the performance of the automatic process, either because the agent lack the knowledge/experience, or because the oserved information contradicts the believed knowledge.
 
 ---
 

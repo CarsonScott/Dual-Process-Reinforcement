@@ -21,10 +21,9 @@ This period of preparation has the additional effect of improving efficiency of 
 
 In real-world applications, exclusive application of the automatic process is a naïve idea, as it lacks the adequate skills required to navigate complex environments. In contrast the controlled process is a self-reliant system by nature, in that it makes decisions according to a built-in utility function as opposed to reinforcement from an external source.
 
---
+---
 
 ## Learning
-
 The automatic method assigns fitness to each neighboring state, which equals the sum of utilities of their neighboring states, thus providing an expected potential utility for each possible path. This mechanism is reminiscent of Q-learning, an algorithm that discovers optimal paths through backward-chaining of rewards. However, this algorithm was designed with an emphasis on being robust, which is perhaps the weakest attribute of Q-Learning.
 
 States have weighted connections to neighboring states, such that each connection is associated with an action that leads to the neighboring state. Weights are adjusted when the agent selects an action and receives a reward in the new state.
